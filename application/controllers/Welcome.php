@@ -22,7 +22,7 @@ class Welcome extends Application
 
 		// pass on the data to present, as the "authors" view parameter
 		$this->data['authors'] = $source;
-
+		
 		$this->render();
 	}
 
