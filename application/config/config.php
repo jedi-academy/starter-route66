@@ -6,15 +6,15 @@ $config['menu_choices'] = array(
     'menudata' => array(
         array('name' => 'Alpha', 'link' => '#'),
         array('name' => 'Bravo', 'link' => '#'),
-        array('name' => 'Charlie', 'link' => '#'),
+        array('name' => 'Charlie', 'link' => 'charile/brown'),
         array('name' => 'Delta', 'link' => '#'),
         array('name' => 'Echo', 'link' => '#'),
-        array('name' => 'Foxtrot', 'link' => '#'),
+        array('name' => 'Foxtrot', 'link' => '/foxtrot'),
         array('name' => 'Golf', 'link' => '#'),
         array('name' => 'Hotel', 'link' => '#'),
         array('name' => 'India', 'link' => '#'),
         array('name' => 'Juliet', 'link' => '#'),
-        array('name' => 'Kilo', 'link' => '#'),
+        array('name' => 'Kilo', 'link' => '/show/2'),
         )
     );
 
