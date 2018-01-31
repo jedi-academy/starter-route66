@@ -6,14 +6,14 @@
  * Time: 10:39 AM
  */
 
-class Delta extends Application
+class Force extends Application
 {
     function __construct()
     {
         parent::__construct();
     }
 
-    public function force()
+    public function index()
     {
         $this->show(4);
     }
