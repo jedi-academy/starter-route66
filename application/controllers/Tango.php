@@ -6,6 +6,7 @@ class Tango extends Application
     {
         parent::__construct();
     }
+    
     /**
      * Homepage for our app
      */
