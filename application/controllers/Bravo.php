@@ -11,7 +11,7 @@ class Bravo extends Application
      * Homepage for our app
      */
     public function index() {
-        $this->show(1);
+        $this->show(2);
     }
 
 }
