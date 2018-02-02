@@ -11,7 +11,7 @@
  *
  * @author yunomi
  */
-class tango extends Application
+class Tango extends Application
 {
 
 	function __construct()
