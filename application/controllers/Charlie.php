@@ -7,17 +7,17 @@
  */
 
 /**
- * Description of brown
+ * Description of Charlie
  *
  * @author daohu
  */
-class brown {
-    function __construct()
+class Charlie extends Application {
+     function __construct()
     {
         parent::__construct();
     }
         
-    public function index() 
+    public function brown() 
     {
         $this->show(3);
     }
