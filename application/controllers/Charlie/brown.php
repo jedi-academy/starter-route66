@@ -12,5 +12,13 @@
  * @author daohu
  */
 class brown {
-    //put your code here
+    function __construct()
+    {
+        parent::__construct();
+    }
+        
+    public function index() 
+    {
+        $this->show(3);
+    }
 }
