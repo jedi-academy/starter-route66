@@ -56,4 +56,5 @@ $route['foxtrot']  = 'tango';
 $route['bananas/rule'] = function() {
     return 'golf';
 };
+$route['i/.*'] = 'golf';
 
