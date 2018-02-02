@@ -11,14 +11,6 @@
  *
  * @author daohu
  */
-class brown extends Application {
-     function __construct()
-    {
-        parent::__construct();
-    }
-        
-    public function index() 
-    {
-        $this->show(3);
-    }
+class brown {
+    //put your code here
 }
