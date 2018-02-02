@@ -7,11 +7,11 @@
  */
 
 /**
- * Description of Able
+ * Description of Must
  *
  * @author daohu
  */
-class Able extends Application {
+class Must extends Application {
     function __construct()
     {
         parent::__construct();
@@ -19,6 +19,6 @@ class Able extends Application {
         
     public function index() 
     {
-        $this->show(1);
+        $this->show(5);
     }
 }

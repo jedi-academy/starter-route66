@@ -7,18 +7,18 @@
  */
 
 /**
- * Description of Able
+ * Description of Charlie
  *
  * @author daohu
  */
-class Able extends Application {
-    function __construct()
+class Charlie extends Application {
+     function __construct()
     {
         parent::__construct();
     }
         
-    public function index() 
+    public function brown() 
     {
-        $this->show(1);
+        $this->show(3);
     }
 }
