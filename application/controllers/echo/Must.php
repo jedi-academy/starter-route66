@@ -17,7 +17,7 @@ class Must extends Application {
         parent::__construct();
     }
         
-    public function index() 
+    public function wehave() 
     {
         $this->show(5);
     }
