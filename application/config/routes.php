@@ -52,3 +52,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['foxtrot'] = 'tango';
+$route['i/.*'] = 'golf';
+
+/**
+ * Routing rule that routes requests with bananas/rule
+ * to the Golf controller
+ */
+$route['bananas/rule'] = function() {
+    return 'golf';
+};
+
+$route['show/(:any)'] = 'welcome/show/$1';
